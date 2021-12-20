@@ -19,7 +19,7 @@ Instalação do Servidor (Computador que recebe pedido de socorro):\
 3- Caso queira apenas receber o pedido de socorro, executar a classe tcpServidor. Caso queira além de receber o pedido, descriver a ocorrência para estudo posterior, executar a classe tcpServidorComOcorrencia. Comando terminal: "python tcpServidor.py" ou "python tcpServidorComOcorrencia.py"\
 <br />
 
-Observações necessárias:\
-- É necessário cadastrar o IP do servidor para poder enviar o pedido de socorro.\
-- O pedido enviado pelo cliente só chegará ao servidor, se o servidor estiver com o tcpServidor sendo executado. !Dica: Executar comando para abrir tcpServidor ao ligar o computador\
-- Caso seja necessário alterar o nome da localização do computador, executar a classe InterfaceAlteraLocalizacaoAtual. Ela tem como base a tabela Todas_Localizações, dessa forma, antes de alterar a localização atual é necessário cadastrar esse novo endereço na tabela Todas_Localizações usando as interfaces de localizações ou usando a classe DAOLocalizações.\
+Observações necessárias:
+- É necessário cadastrar o IP do servidor para poder enviar o pedido de socorro.
+- O pedido enviado pelo cliente só chegará ao servidor, se o servidor estiver com o tcpServidor sendo executado. !Dica: Executar comando para abrir tcpServidor ao ligar o computador
+- Caso seja necessário alterar o nome da localização do computador, executar a classe InterfaceAlteraLocalizacaoAtual. Ela tem como base a tabela Todas_Localizações, dessa forma, antes de alterar a localização atual é necessário cadastrar esse novo endereço na tabela Todas_Localizações usando as interfaces de localizações ou usando a classe DAOLocalizações.
